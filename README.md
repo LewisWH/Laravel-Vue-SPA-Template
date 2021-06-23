@@ -73,8 +73,7 @@ php artisan migrate
 Route::resource('task',App\Http\Controllers\TaskController::class)->only(['index','store','show','update','destroy'])
 ```
 
-* Add new templates inside a new folder within the components folder
-* E.g resources\js\components\task\List.vue
+* Add new templates inside a new folder within the components folder (e.g resources\js\components\task\List.vue)
 
 * Define routes within resources\js\components\routes.js
 
